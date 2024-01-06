@@ -82,7 +82,7 @@ Please note that this is a basic example, and depending on specific requirements
 Adding a job posting schema code to a website involves embedding the JSON-LD structured data within the HTML code of the webpage where the job listing is displayed. Here are the steps to add the code:
 
 # Step 1: Locate the HTML Section for the Job Posting
-Identify the section of the HTML code that represents the job posting on your webpage. This could be within a <div>, a section of the page dedicated to job listings, or any area specifically designed for displaying job details.
+Identify the section of the HTML code that represents the job posting on your webpage. This could be within a <div>,a section of the page dedicated to job listings, or any area specifically designed for displaying job details.
 
 # Step 2: Insert JSON-LD Script
 Within the identified HTML section, add a <script> tag containing the JSON-LD structured data. For example:
