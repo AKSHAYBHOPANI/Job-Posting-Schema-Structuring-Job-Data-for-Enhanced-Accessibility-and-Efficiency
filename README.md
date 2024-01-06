@@ -27,7 +27,7 @@ Implementing a job posting schema involves integrating structured data markup, s
 Here is an example of a job portal All Govt Jobs implementing the clear structural data along with the different types of schemes which require for the blog like; Job posting schema, Breadcrumbs, Article schema, Item list schema and about us
 
 An example of a basic job posting schema in JSON-LD format using Schema.org's JobPosting schema:
-
+```
 {
   "@context": "https://schema.org",
   "@type": "JobPosting",
@@ -72,7 +72,7 @@ An example of a basic job posting schema in JSON-LD format using Schema.org's Jo
   "applicationDeadline": "2024-01-05",
   "url": "https://www.example.com/jobs/software-engineer"
 }
-
+```
 
 This JSON-LD snippet represents a job posting for a Software Engineer position at "ABC Company." It includes various properties defined by Schema.org's JobPosting schema, such as job title, description, employment type, date posted, company information, job location, salary details, required skills, qualifications, responsibilities, application deadline, and a URL for applying to the job.
 Please note that this is a basic example, and depending on specific requirements or additional details needed for job postings, more properties or customization can be added to the schema. The actual implementation might vary based on the platform or website where the job posting is being hosted.
@@ -80,6 +80,7 @@ Please note that this is a basic example, and depending on specific requirements
 # How to add code 
 
 Adding a job posting schema code to a website involves embedding the JSON-LD structured data within the HTML code of the webpage where the job listing is displayed. Here are the steps to add the code:
+
 # Step 1: Locate the HTML Section for the Job Posting
 Identify the section of the HTML code that represents the job posting on your webpage. This could be within a <div>, a section of the page dedicated to job listings, or any area specifically designed for displaying job details.
 # Step 2: Insert JSON-LD Script
