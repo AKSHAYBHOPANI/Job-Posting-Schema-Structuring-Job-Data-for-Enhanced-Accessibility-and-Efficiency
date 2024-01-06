@@ -24,7 +24,7 @@ Efficient Data Parsing: Automated systems can easily parse and extract relevant 
 # Implementing Job Posting Schema
 Implementing a job posting schema involves integrating structured data markup, such as Schema.org's JobPosting schema, into the HTML code of job listings. By adhering to standardised formats and guidelines, organisations, job boards, and recruitment platforms can contribute to a more interconnected and accessible job market.
 
-Here is an example of a job portal All Govt Jobs implementing the clear structural data along with the different types of schemes which require for the blog like; Job posting schema, Breadcrumbs, Article schema, Item list schema and about us
+Here is an example of a job portal [All Govt Jobs](https://allgovernmentjobs.in/) implementing the clear structural data along with the different types of schemes which require for the blog like; Job posting schema, Breadcrumbs, Article schema, Item list schema and about us
 
 An example of a basic job posting schema in JSON-LD format using Schema.org's JobPosting schema:
 ```
